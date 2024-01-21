@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox fx:id="msg_row" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+      minWidth="-Infinity" spacing="4.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="tech.amg.chatapp.Chat.message.Message">
+    <children>
+        <ImageView fx:id="msg_senderMessage" fitHeight="50.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+            <HBox.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+            </HBox.margin>
+        </ImageView>
+        <Label fx:id="msg_content" style="-fx-background-color: #864AF9;" text=""/>
+    </children>
+</HBox>
